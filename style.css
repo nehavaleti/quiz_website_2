@@ -1,0 +1,337 @@
+.body {
+  background-color: #f2efeb;
+  margin: 0;
+  padding: 0;
+  font-family: "Sedan";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  text-align: center;
+}
+
+.subheading {
+  position: absolute;
+  width: 201px;
+  height: 44px;
+  left: 555px;
+  top: 50px;
+
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+}
+
+.heading {
+  position: absolute;
+  width: 439px;
+  height: 100px;
+  left: 450px;
+  top: 156px;
+
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.divider {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  left: 555px;
+  top: 262px;
+  background: #2c2c2c;
+}
+
+.content {
+  position: absolute;
+  width: 523px;
+  height: 75px;
+  left: 400px;
+  top: 312px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+button {
+  position: absolute;
+  width: 375px;
+  height: 55px;
+  left: 465px;
+  top: 466px;
+
+  background: #ff9900;
+  border-radius: 12px;
+}
+
+.button-text {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #f2efeb;
+}
+
+.content1 {
+  position: absolute;
+  width: 289px;
+  height: 44px;
+  left: 500px;
+  top: 50px;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+
+.form-container {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+
+#name {
+  position: absolute;
+  width: 97px;
+  height: 25px;
+  left: 450px;
+  top: 10px;
+}
+#n {
+  position: absolute;
+  width: 375px;
+  height: 50px;
+  left: 450px;
+  top: 30px;
+  background: #cccbc9;
+  border-radius: 12px;
+}
+
+#age {
+  position: absolute;
+  width: 79px;
+  height: 25px;
+  left: 450px;
+  top: 90px;
+}
+
+#a {
+  position: absolute;
+  width: 375px;
+  height: 50px;
+  left: 450px;
+  top: 120px;
+  background: #cccbc9;
+  border-radius: 12px;
+}
+
+#gender {
+  position: absolute;
+  width: 79px;
+  height: 25px;
+  left: 450px;
+  top: 173px;
+}
+#g {
+  position: absolute;
+  width: 375px;
+  height: 50px;
+  left: 450px;
+  top: 200px;
+  background: #cccbc9;
+  border-radius: 12px;
+}
+
+#email {
+  position: absolute;
+  width: 79px;
+  height: 25px;
+  left: 450px;
+  top: 253px;
+}
+
+#e {
+  position: absolute;
+  width: 375px;
+  height: 50px;
+  left: 450px;
+  top: 280px;
+  background: #cccbc9;
+  border-radius: 12px;
+}
+.question-heading {
+  position: absolute;
+  width: 130px;
+  height: 36px;
+  left: 80px;
+  top: 150px;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+.question {
+  position: absolute;
+  width: 1090px;
+  height: 60px;
+  left: 80px;
+  top: 200px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+#op1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 100px;
+  top: 290px;
+}
+#A {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  left: 150px;
+  top: 287px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+#op2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 100px;
+  top: 330px;
+}
+#B {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  left: 150px;
+  top: 325px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+#op3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 100px;
+  top: 370px;
+}
+#C {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  left: 150px;
+  top: 365px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+#op4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 100px;
+  top: 410px;
+}
+#D {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  left: 150px;
+  top: 405px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+
+#timer {
+  position: absolute;
+  width: 161px;
+  height: 36px;
+  left: 1000px;
+  top: 300px;
+
+  font-family: "Sedan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #2c2c2c;
+}
+.divider1 {
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  left: 955px;
+  top: 350px;
+
+  background: #2c2c2c;
+}
+#previousButton {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 850px;
+  top: 400px;
+
+  background: #ff9900;
+  border-radius: 12px;
+}
+#nextButton {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 1050px;
+  top: 400px;
+
+  background: #ff9900;
+  border-radius: 12px;
+}
+.scor {
+  position: absolute;
+  width: 170px;
+  height: 120px;
+  left: 555px;
+  top: 150px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2c2c2c;
+}
+.play-again {
+  position: absolute;
+  width: 300px;
+  height: 55px;
+  left: 500px;
+  top: 300px;
+
+  background: #ff9900;
+  border-radius: 12px;
+}

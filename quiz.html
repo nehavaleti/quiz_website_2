@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container2">
+      <div class="question-heading">
+        Question <span id="question-id"></span>
+      </div>
+      <div class="question" id="q"></div>
+    </div>
+    <div class="choices">
+      <div class="choice-container">
+        <input type="radio" id="op1" value="0" name="option" />
+        <label for="option1" id="A"></label>
+      </div>
+      <div class="choice-container">
+        <input type="radio" id="op2" value="1" name="option" />
+        <label for="option1" id="B"></label>
+      </div>
+      <div class="choice-container">
+        <input type="radio" id="op3" value="2" name="option" />
+        <label for="option1" id="C"></label>
+      </div>
+      <div class="choice-container">
+        <input type="radio" id="op4" value="3" name="option" />
+        <label for="option1" id="D"></label>
+      </div>
+    </div>
+    <div class="footer">
+      <div id="timer"></div>
+      <div class="divider1"><hr /></div>
+      <button id="previousButton">
+        <span class="button-text">Previous</span>
+      </button>
+      <button id="nextButton">
+        <span class="button-text" id="next">Next</span>
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
